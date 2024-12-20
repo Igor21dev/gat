@@ -1,0 +1,52 @@
+.container {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    padding: 0;
+    width: 1000px;
+}
+
+.custom-arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    z-index: 10;
+}
+
+.custom-arrow.custom-prev {
+    left: 150px;
+}
+
+.custom-arrow.custom-next {
+    right: 150px;
+}
+
+.slick-slide  {
+    padding: 0 10px; 
+  }
+
+.dots {
+    display: flex;
+}
+
+
+.dots li {
+    width: 10px;
+    height: 10px;   
+    background-color: rgb(177, 176, 176);
+    border-radius: 50%;
+    cursor: pointer;
+
+}
+
+.button-container {
+    position: absolute;
+    bottom: 100px;
+    margin-left: -70px;
+  }
+
+
+  
