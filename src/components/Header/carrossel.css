@@ -25,28 +25,66 @@
 }
 
 .slick-slide  {
-    padding: 0 10px; 
+    padding: 0 7px; 
   }
 
-.dots {
-    display: flex;
-}
 
-
-.dots li {
-    width: 10px;
-    height: 10px;   
-    background-color: rgb(177, 176, 176);
+.dots li {  
+    width: 12px !important;
+    height: 12px !important;
+    background-color: rgb(0, 0, 0);
     border-radius: 50%;
-    cursor: pointer;
-
 }
+
+.slick-dots li:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.slick-dots li button {
+    width: 2px !important;
+    height: 1px !important;
+    transform: scale(0.7);
+}
+
 
 .button-container {
+    display: flex;
     position: absolute;
-    bottom: 100px;
-    margin-left: -70px;
-  }
+    bottom: 6rem;
+    margin-left: -95px;
+    letter-spacing: 3px;
+    max-height: 50px;
+}
+@media (max-width: 1260px) {
+    .button-container {
+        bottom: 5rem; 
+        py: 4;
+
+    }
+}
+
+@media (max-width: 1120px) {
+    .button-container {
+        bottom: 4rem; 
+    }
+}
+
+@media (max-width: 1050px) {
+    .button-container {
+        bottom: 2.5rem; 
+    }
+}
+
+@media (max-width: 768px) {
+    .button-container {
+        bottom: 2rem; 
+    }
+}
+
+.button-container:hover {
+    transform: scale(1.01);
+}
 
 
   

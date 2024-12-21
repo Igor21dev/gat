@@ -3,5 +3,11 @@ import img2 from './img2.png';
 import img3 from './img3.png';
 import arrow1 from './Arrow1.svg';
 import arrow2 from './Arrow2.svg';
+import logo from './logo.svg';
+import icon from './icon.svg';
+import lupa from './lupa.svg';
+import cat from './cat.svg';
+import cesta from './cesta.svg';
+import notification from './notification.svg';
 
-export {img1, img2, img3, arrow1, arrow2};
+export {img1, img2, img3, arrow1, arrow2, logo, icon, lupa, cat, cesta, notification};

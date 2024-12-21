@@ -1,0 +1,199 @@
+.navbar {
+    position: absolute;
+    margin-top: 25px;
+    width: 97%;
+    height: 47px;
+    background-color: #efefef;  
+    z-index: 2;
+    justify-content: center;
+    align-items: center;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.logo {
+    position: absolute;
+    height: 105%;
+    margin-top: 8px;
+    margin-left: 1.47%;
+    z-index: 2;
+    width: 7.38%;
+}
+
+.produtos {
+    position: absolute;
+    background-color: #1E1E1E;
+    height: 93%;
+    margin-top: 2px;
+    width: 10.46%;
+    margin-left: 10.06%; 
+    z-index: 2;
+}
+
+.produtos:not(:empty):hover {
+    font-weight: bold;
+}
+
+.iconProduto {
+    position: absolute;
+    margin-left: 16%;
+    margin-top: 8%;
+    width: 12%;
+}
+
+.textProduto {
+    position: absolute;
+    color: #EFEFEF;
+    margin-left: 36%;
+    margin-top: 7%;
+    letter-spacing: 1px;
+    font-size: 1rem;
+}
+
+@media(max-width: 1291px) {
+    .iconProduto {
+        margin-top: 12%;
+    }
+    .textProduto {
+        margin-top: 10%;
+        font-size: 0.8rem;
+    }
+}
+
+
+.colecoes {
+    position: absolute;
+    background-color: #1E1E1E;
+    height: 93%;
+    margin-top: 2px;
+    width: 10.46%;
+    margin-left: 20.60%; 
+    z-index: 2;
+}
+
+.colecoes:not(:empty):hover { 
+    font-weight: bold;
+}
+
+.iconColecoes {
+    position: absolute;
+    margin-left: 16%;
+    margin-top: 8%;
+    width: 12%;
+}
+
+.textColecoes {
+    position: absolute;
+    color: #EFEFEF;
+    margin-left: 36%;
+    margin-top: 7%;
+    letter-spacing: 1px;
+    font-size: 1rem;
+}
+
+@media(max-width: 1291px) {
+    .iconColecoes {
+        margin-top: 12%;
+    }
+    .textColecoes {
+        margin-top: 10%;
+        font-size: 0.8rem;
+    }
+}
+
+.opcoes {
+    position: absolute;
+    background-color: #1E1E1E;
+    height: 93%;
+    margin-top: 2px;
+    width: 42.61%;
+    margin-left: 31.14%; 
+    z-index: 2;
+    color: #EFEFEF;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.opcoes p {
+    margin: 0 10px;
+}
+
+.wishlist:hover, 
+.sobreGat:hover, 
+.lookbook:hover, 
+.blog:hover {
+    font-weight: bold;
+}
+
+.pesquisa {
+    position: absolute;
+    background-color: #1E1E1E;
+    height: 93%;
+    margin-top: 2px;
+    width: 16.64%;
+    margin-left: 73.89%; 
+    z-index: 2;
+}
+
+.cat {
+    position: absolute;
+    background-color: #1E1E1E;
+    height: 93%;
+    margin-top: 2px;
+    width: 3.02%;
+    margin-left: 90.60%; 
+    z-index: 2;
+}
+
+.cart {
+    position: absolute;
+    background-color: #1E1E1E;
+    height: 93%;
+    margin-top: 2px;
+    width: 6.2%;
+    margin-left: 93.69%;
+    z-index: 2;
+}
+
+.pesquisa {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pesquisa img {
+    margin-right: 10px;
+}
+
+.pesquisa input {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color: #EFEFEF;
+}
+
+.pesquisa input::placeholder {
+    font-size: 13px;
+}
+
+
+.iconCat {
+    position: absolute;
+    margin-left: 25%;
+    margin-top: 25%;
+    width: 50%;
+}
+
+.cesta {
+    position: absolute;
+    margin-left: 35%;
+    margin-top: 10%;
+    width: 25%;
+}
+
+.notification {
+    position: absolute;
+    margin-left: 55%;
+    margin-top: 8%;
+}

@@ -5,19 +5,16 @@ import Slider from 'react-slick';
 
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import 'swiper/css';
-import 'swiper/css/navigation';
-import 'swiper/css/pagination';
-import 'swiper/css/scrollbar';
+
 
 const PrevArrow = ({ onClick }) => (
-  <div className="custom-arrow custom-prev mt-[35px]" onClick={onClick}>
+  <div className="custom-arrow custom-prev mt-[40px] " onClick={onClick}>
     <img src={arrow1} alt="Seta Esquerda" />
   </div>
 );
 
 const NextArrow = ({ onClick }) => (
-  <div className="custom-arrow custom-next mt-[35px]" onClick={onClick}>
+  <div className="custom-arrow custom-next mt-[40px]" onClick={onClick}>
     <img src={arrow2} alt="Seta Direita" />
   </div>
 );
@@ -37,8 +34,8 @@ const carrossel = () => {
       prevArrow: <PrevArrow />,
       nextArrow: <NextArrow />,
       appendDots: dots => (
-        <div className="absolute bottom-5 left-1/2 transform -translate-x-1/2">
-          <ul className="dots h-[85px] ml-[144px] flex ">{dots}</ul>
+        <div>
+          <ul className="dots flex gap-3 h-[80px] ml-[144px]">{dots}</ul>
         </div>
       ),
     };
@@ -59,7 +56,7 @@ const carrossel = () => {
                 <img className="w-full h-auto max-h-[660px] m-auto" src={img.img} alt="" />           
                 {img.review !== 'null' && img.id === 1 && (
                   <div className='containerHoldButton relative flex justify-center'>
-                    <button className='button-container bg-black text-white py-2 px-4 rounded-[20px]'>VER COLEÇÃO</button>
+                    <button className='button-container bg-black text-white py-4 px-6 rounded-[30px]'>VER COLEÇÃO</button>
                   </div>
                 )}
               </div>
