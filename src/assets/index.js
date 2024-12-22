@@ -13,5 +13,13 @@ import numdez from './10.svg';
 import prize from './prize.svg';
 import paw from './paw.svg';
 import pawL from './pawL.svg';
+import triangulo from './triangulo.svg';
+import gatoCaixa from './gatoCaixa.png';
+import mais from './mais.png';
+import complementoMais from './complementoMais.png';
+import circulo from './circulo.svg';
+import noventaGraus from './noventaGraus.svg';
 
-export {img1, img2, img3, arrow1, arrow2, logo, icon, lupa, cat, cesta, notification, numdez, prize, paw, pawL};
+export {img1, img2, img3, arrow1, arrow2, logo, icon, lupa,
+        cat, cesta, notification, numdez, prize, paw, pawL, 
+        triangulo, gatoCaixa, mais, complementoMais, circulo, noventaGraus};

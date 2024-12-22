@@ -1,0 +1,25 @@
+.container {
+    position: absolute;
+    width: 100%;
+}
+
+.colecoesTitulo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.minimalismo {
+    background-color: #4DA1B1;
+}
+
+.tituloMinimalismo {
+    color: #EFEFEF;
+    font-size: 57px;
+    font-weight: bold;
+}
+
+.botao {
+    width: 215px;
+    height: 55px;
+    border: 2px solid #000000;
+}
