@@ -22,8 +22,20 @@ import noventaGraus from './noventaGraus.svg';
 import circuloAmarelo from './circuloAmarelo.png';
 import tocaTunel from './tocaTunel.png';
 import cestaBlack from './cestaBlack.svg';
+import classico from './classico.png';
+import minimalismo from './minimalismo.png';
+import maximalismo from './maximalismo.png';
+import boho from './boho.png';
+import ilustracao from './ilustracao.png';
+import um from './1.png';
+import dois from './2.png';
+import tres from './3.png';
+import quatro from './4.png';
+import cinco from './5.png';
 
 export {img1, img2, img3, arrow1, arrow2, logo, icon, lupa,
         cat, cesta, notification, numdez, prize, paw, pawL, 
         triangulo, gatoCaixa, mais, complementoMais, circulo, 
-        noventaGraus, circuloAmarelo, tocaTunel, cestaBlack};
+        noventaGraus, circuloAmarelo, tocaTunel, cestaBlack,
+        classico, minimalismo, maximalismo, boho, ilustracao,
+        um, dois, tres, quatro, cinco};

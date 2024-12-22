@@ -1,0 +1,16 @@
+.titleCategorias {
+    letter-spacing: 9px;
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+.opcoesCategoria {
+    margin-right: 40px;
+}
+
+.classico, .minimalism, .maximalismo, .boho, .vertudo {
+    width: 290px;
+    height: 65px;
+    border: 2px solid #000000;
+    justify-content: center;
+}

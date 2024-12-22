@@ -14,9 +14,9 @@ const Produtos = () => {
 
   const [clicked, setClicked] = useState(false);
       
-      const handleClick = () => {
-          setClicked(!clicked);
-      };
+  const handleClick = () => {
+      setClicked(!clicked);
+  };
   return (
     <div>
         <div className='container absolute'>
@@ -42,7 +42,7 @@ const Produtos = () => {
               <div className='containerImg w-full h-3/4 relative'>
                 <div className='porcentagem flex justify-end w-[70px] ml-[280px] z-50 absolute'> <span className='font-bold'> 10% </span>OFF</div>
                 <div className='lancamento flex justify-end w-[105px] ml-[245px] mt-[35px] font-bold z-50 absolute'>Lançamento</div>
-                <img className={`transform transition-all duration-400 w-[150px] h-[200px] ml-[100px] mt-[50px] ${isHovered1 ? 'w-[3500px] h-[380px] ml-[1px] mt-[-1px] z-10' : 'w-[150px] h-[200px] ml-[100px] mt-[130px]'}`}
+                <img className={`transform transition-all duration-400 w-[150px] h-[200px] ml-[100px] mt-[50px] ${isHovered1 ? 'w-[3500px] h-[380px] transform translate-y-[-50px] transform translate-x-[-100px] z-10' : 'w-[150px] h-[200px] ml-[100px] mt-[130px]'}`}
                 src={imgSrc1} alt="" />
               </div>
               <div className='containerInfo w-full h-1/4'>
@@ -75,7 +75,7 @@ const Produtos = () => {
               <div className='containerImg w-full h-3/4 relative'>
                 <div className='porcentagem flex justify-end w-[70px] ml-[280px] z-50 absolute'> <span className='font-bold'> 10% </span>OFF</div>
                 <div className='lancamento flex justify-end w-[105px] ml-[245px] mt-[35px] font-bold z-50 absolute'>Lançamento</div>
-                <img className={`transform transition-all duration-400 w-[150px] h-[200px] ml-[100px] mt-[50px] ${isHovered2 ? 'w-[3500px] h-[380px] ml-[1px] mt-[-1px] z-10' : 'w-[150px] h-[200px] ml-[100px] mt-[130px]'}`}
+                <img className={`transform transition-all duration-400 w-[150px] h-[200px] ml-[100px] mt-[50px] ${isHovered2 ? 'w-[3500px] h-[380px] transform translate-y-[-50px] transform translate-x-[-100px] z-10' : 'w-[150px] h-[200px] ml-[100px] mt-[130px]'}`}
                 src={imgSrc2} alt="" />
               </div>
               <div className='containerInfo w-full h-1/4'>
@@ -108,7 +108,7 @@ const Produtos = () => {
               <div className='containerImg w-full h-3/4 relative'>
                 <div className='porcentagem flex justify-end w-[70px] ml-[280px] z-50 absolute'> <span className='font-bold'> 10% </span>OFF</div>
                 <div className='lancamento flex justify-end w-[105px] ml-[245px] mt-[35px] font-bold z-50 absolute'>Lançamento</div>
-                <img className={`transform transition-all duration-400 w-[150px] h-[200px] ml-[100px] mt-[50px] ${isHovered3 ? 'w-[3500px] h-[380px] ml-[1px] mt-[-1px] z-10' : 'w-[150px] h-[200px] ml-[100px] mt-[130px]'}`}
+                <img className={`transform transition-all duration-400 w-[150px] h-[200px] ml-[100px] mt-[50px] ${isHovered3 ? 'w-[3500px] h-[380px] transform translate-y-[-50px] transform translate-x-[-100px] z-10' : 'w-[150px] h-[200px] ml-[100px] mt-[130px]'}`}
                 src={imgSrc3} alt="" />
               </div>
               <div className='containerInfo w-full h-1/4'>
