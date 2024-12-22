@@ -19,7 +19,11 @@ import mais from './mais.png';
 import complementoMais from './complementoMais.png';
 import circulo from './circulo.svg';
 import noventaGraus from './noventaGraus.svg';
+import circuloAmarelo from './circuloAmarelo.png';
+import tocaTunel from './tocaTunel.png';
+import cestaBlack from './cestaBlack.svg';
 
 export {img1, img2, img3, arrow1, arrow2, logo, icon, lupa,
         cat, cesta, notification, numdez, prize, paw, pawL, 
-        triangulo, gatoCaixa, mais, complementoMais, circulo, noventaGraus};
+        triangulo, gatoCaixa, mais, complementoMais, circulo, 
+        noventaGraus, circuloAmarelo, tocaTunel, cestaBlack};

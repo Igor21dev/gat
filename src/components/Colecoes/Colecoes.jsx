@@ -40,13 +40,13 @@ const Colecoes = () => {
                 </p>
         </div>
         <div className='butao absolute'>
-      <button
-        onClick={handleClick}
-        className={`botao text-[23px] ml-[1100px] transform translate-y-[528px] translate-x-[-763px] rounded-[30px] 
-          ${clicked ? 'bg-black text-white' : 'bg-transparent text-black'}`}
-      >
-        EXPLORAR
-      </button>
+        <button
+          onClick={handleClick}
+          className={`botao text-[23px] ml-[1100px] transform translate-y-[528px] translate-x-[-763px] rounded-[30px] 
+            ${clicked ? 'bg-black text-white' : 'bg-transparent text-black'}`}
+        >
+          EXPLORAR
+        </button>
     </div>
       </div>
     </div>

@@ -1,11 +1,12 @@
 import React from 'react'
-import { Header, Colecoes } from './components/'
+import { Header, Colecoes, Produtos } from './components/'
 
 const App = () => {
   return (
     <div>
       <Header />
       <Colecoes />
+      <Produtos />
     </div>
   )
 }

@@ -1,0 +1,24 @@
+.buttonQueridinhos {
+    padding: 7px 45px;
+}
+
+.containerImg {
+    border: 2px solid transparent;
+}
+
+.porcentagem {
+    color: #ffffff;
+    background-color: #4DA1B1;
+    padding: 2px 2px;
+}
+
+.lancamento {
+    color: #ffffff;
+    background-color: #E5675D;
+    padding: 2px 2px;
+}
+
+.addCarrinho {
+    border: 2px solid #000000;
+    padding: 2px 5px;
+}
