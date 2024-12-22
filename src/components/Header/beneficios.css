@@ -1,0 +1,38 @@
+.barra {
+    background-color: #262626;
+}
+
+.banner {
+    background-color: #DE5A53;
+}
+
+
+.titulo1 {
+    color: #FFFFFF;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.paragrafo1 {
+    color: #FFFFFF;
+    letter-spacing: 0.5px;
+}
+
+.title2 {
+    color: #FFFFFF;
+    font-size: 1.5rem;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.paragrafo2 {
+    color: #FFFFFF;
+}
+
+.carrossel {
+    color: #000000;
+}
+
+.textPCarrossel{
+    color: #FFFFFF;
+}

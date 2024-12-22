@@ -1,11 +1,12 @@
 import React from 'react'
-import { Carrossel, Navbar } from '..'
+import { Carrossel, Navbar, Beneficios } from '..'
 
 const header = () => {
   return (
     <div>
       <Navbar /> 
       <Carrossel />
+      <Beneficios />
     </div>
   )
 }
