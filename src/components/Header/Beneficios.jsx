@@ -24,7 +24,7 @@ const Beneficios = () => {
     <div>
       <div className='barra w-[92.5%] mx-auto h-[9px] mt-[-7px]'></div>
       <div className='banner w-[92.5%] mx-auto h-[285px] flex items-center justify-center'>
-            <div className='container border-2 !w-[1220px] h-[210px] mt-[5px]'>
+            <div className='container border-2 !w-[1120px] h-[210px] mt-[5px]'>
                 <div className='beneficioPrincipal border w-[369px] h-full'>
                     <img className='ml-[20px] mt-[30px] h-[130px]' src={numdez} alt="numdez" />
                     <h1 className='titulo1 leading-tight mt-[-140px] ml-[165px] mr-[20px]'>Benifício Principal</h1>
@@ -32,22 +32,22 @@ const Beneficios = () => {
                 </div>
                 <div className='benefi1 border w-[400px] h-[150px] mt-[-60px] '>
                     <img src={prize} className='ml-[25px] mt-[17px] h-[55px]' alt="Imagem ilustrativa" />
-                    <h2 className='title2 text-right mt-[-60px] mr-[20px]'>Benefício Secundário</h2>
-                    <p className='paragrafo2 mt-[2px] ml-[26px]'>Lorem ipsum dolor sit amet, consectetur al muad’ib.</p>
+                    <h2 className='title2 text-right mt-[-60px] mr-[13px]'>Benefício Secundário</h2>
+                    <p className='paragrafo2 mt-[2px] ml-[26px] text-[15px]'>Lorem ipsum dolor sit amet, consectetur al muad’ib.</p>
                 </div>
                 <div className='benefi2 border w-[400px] h-[150px] mt-[-60px] '>
                     <img src={prize} className='ml-[25px] mt-[17px] h-[55px]' alt="Imagem ilustrativa" />
-                    <h2 className='title2 text-right mt-[-60px] mr-[20px]'>Benefício Secundário</h2>
-                    <p className='paragrafo2 mt-[2px] ml-[26px]'>Lorem ipsum dolor sit amet, consectetur al muad’ib.</p>
+                    <h2 className='title2 text-right mt-[-60px] mr-[13px]'>Benefício Secundário</h2>
+                    <p className='paragrafo2 mt-[2px] ml-[26px] text-[15px]'>Lorem ipsum dolor sit amet, consectetur al muad’ib.</p>
                 </div>
                 <div className='benefi3 border w-[400px] h-[150px] mt-[-60px] '>
                     <img src={prize} className='ml-[25px] mt-[17px] h-[55px]' alt="Imagem ilustrativa" />
-                    <h2 className='title2 text-right mt-[-60px] mr-[20px]'>Benefício Secundário</h2>
-                    <p className='paragrafo2 mt-[2px] ml-[26px]'>Lorem ipsum dolor sit amet, consectetur al muad’ib.</p>
+                    <h2 className='title2 text-right mt-[-60px] mr-[13px]'>Benefício Secundário</h2>
+                    <p className='paragrafo2 mt-[2px] ml-[26px] text-[15px]'>Lorem ipsum dolor sit amet, consectetur al muad’ib.</p>
                 </div>
             </div>
         </div>
-        <Slider {...settings} className='carrossel mt-[-75px] w-[55.8%] ml-[34.2%]'>
+        <Slider {...settings} className='carrossel mt-[-75px] w-[60.2%] ml-[34.9%]'>
             <div className='max-w-full'>
                 <p className='textPCarrossel whitespace-nowrap'>Benefício Terciário</p>
             </div>

@@ -36,9 +36,9 @@ const Hashtag = () => {
         <div>
             <div className='containerHashtag w-full h-[857px] transform translate-y-[1930px] relative'>
                 <div>
-                    <p className='ml-[280px] text-[23.5px] transform translate-y-[78px] leading-[1.2] '>Faça parte da comunidade de gatunos que amam <br />
+                    <p className='ml-[200px] text-[23.5px] transform translate-y-[78px] leading-[1.2] '>Faça parte da comunidade de gatunos que amam <br />
                         design e papelão compartilhando a hashtag:</p>
-                    <h1 className='relative ml-[270px] mt-[57px] text-[90px] z-50 text-[#7EB4C8]'>#AdoradoresDePapelão</h1>
+                    <h1 className='relative ml-[190px] mt-[57px] text-[80px] z-50 text-[#7EB4C8]'>#AdoradoresDePapelão</h1>
                 </div>
                 <div className='carrosselGatos mt-[-55px] z-10'>
                     <Slider {...settings}>
@@ -49,10 +49,10 @@ const Hashtag = () => {
                                     <img 
                                         src={likes[index] ? redHeart : heart}
                                         alt="Coração"
-                                        className='iconHeart transform translate-y-[-50px] ml-[305px] cursor-pointer'
+                                        className='iconHeart transform translate-y-[-50px] transform translate-x-[1375px] cursor-pointer'
                                         onClick={() => toggleLike(index)} 
                                     />
-                                    <p className='transform translate-y-[-25px] ml-[320px] text-[white] text-[15px]'>10mil</p>
+                                    <p className='transform translate-y-[-25px] ml-[1340px] text-[white] text-[15px]'>10mil</p>
                                 </div>
                             </div>
                         ))}

@@ -55,7 +55,7 @@ const carrossel = () => {
               <div key={img.id}> 
                 <img className="w-full h-auto max-h-[660px] m-auto" src={img.img} alt="" />           
                 {img.review !== 'null' && img.id === 1 && (
-                  <div className='containerHoldButton relative flex justify-center'>
+                  <div className='containerHoldButton flex justify-center'>
                     <button className='button-container bg-black text-white py-4 px-6 rounded-[30px]'>VER COLEÇÃO</button>
                   </div>
                 )}

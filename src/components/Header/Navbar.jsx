@@ -20,7 +20,7 @@ const navbar = () => {
           <a href="#wishlist"><p className='wishlist'>wishlist</p></a>
         </div>
         <div className='pesquisa'>
-          <img src={lupa} alt="lupa de pesquisa" />
+          <img className='ml-[20px]' src={lupa} alt="lupa de pesquisa" />
           <input className='input' type="text" placeholder='digite aqui o que procura' />
         </div>
         <div className='cat'>

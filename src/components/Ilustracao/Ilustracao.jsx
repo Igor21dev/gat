@@ -10,9 +10,9 @@ const Ilustracao = () => {
     };
   return (
     <div>
-      <div className='ilustracao w-full h-[777px] transform translate-y-[1900px] relative'>
+      <div className='ilustracao w-full h-[777px] transform translate-y-[1900px] relative mt-[-40px]'>
         <img className='w-full' src={ilustracao} alt="" />
-        <div className='infoIlustracao absolute w-[330px] h-[380px] transform translate-x-[1155px] transform translate-y-[-763px]'>
+        <div className='infoIlustracao absolute w-[320px] h-[380px] transform translate-x-[885px] transform translate-y-[-623px]'>
             <h1 className='mt-[20px] text-[35px] font-bold leading-[1.27]'>Lorem Ipsum Dolor Sit</h1>
             <p className='mt-5'>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p> <br />
             <p className='mt-[-5px] leading-[1.27] text-[15px]'>Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
