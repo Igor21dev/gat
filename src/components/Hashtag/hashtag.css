@@ -1,0 +1,9 @@
+.containerHashtag {
+    background-color: white;
+}
+
+.gato {
+    width: 350px;
+    height: 550px;
+    object-fit: cover;
+}

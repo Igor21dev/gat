@@ -35,6 +35,13 @@ import cinco from './5.png';
 import circuloVermelho from './circuloVermelho.png';
 import gatoSobre from './gatoSobre.png';
 import play from './play.png';
+import gato1 from './gato1.png';
+import gato2 from './gato2.png';
+import gato3 from './gato3.png';
+import gato4 from './gato4.png';
+import gato5 from './gato5.png';
+import heart from './heart.svg';
+import redHeart from './redHeart.svg';
 
 export {img1, img2, img3, arrow1, arrow2, logo, icon, lupa,
         cat, cesta, notification, numdez, prize, paw, pawL, 
@@ -42,4 +49,4 @@ export {img1, img2, img3, arrow1, arrow2, logo, icon, lupa,
         noventaGraus, circuloAmarelo, tocaTunel, cestaBlack,
         classico, minimalismo, maximalismo, boho, ilustracao,
         um, dois, tres, quatro, cinco, circuloVermelho, gatoSobre,
-        play};
+        play, gato1, gato2, gato3, gato4, gato5, heart, redHeart};
