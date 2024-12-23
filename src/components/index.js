@@ -6,5 +6,6 @@ import Colecoes from './Colecoes/Colecoes'
 import Produtos from './Produtos/Produtos'
 import Categorias from './Categorias/Categorias'
 import Ilustracao from './Ilustracao/Ilustracao'
+import Sobre from './Sobre/Sobre'
 
-export { Header, Navbar, Carrossel, Beneficios, Colecoes, Produtos, Categorias, Ilustracao }
+export { Header, Navbar, Carrossel, Beneficios, Colecoes, Produtos, Categorias, Ilustracao, Sobre }
