@@ -1,5 +1,5 @@
 import React from 'react'
-import { Header, Colecoes, Produtos, Categorias, Ilustracao, Sobre, Hashtag } from './components/'
+import { Header, Colecoes, Produtos, Categorias, Ilustracao, Sobre, Hashtag, Newsletter } from './components/'
 
 const App = () => {
   return (
@@ -11,6 +11,7 @@ const App = () => {
       <Ilustracao />
       <Sobre />
       <Hashtag />
+      <Newsletter />
     </div>
   )
 }

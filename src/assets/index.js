@@ -42,6 +42,13 @@ import gato4 from './gato4.png';
 import gato5 from './gato5.png';
 import heart from './heart.svg';
 import redHeart from './redHeart.svg';
+import lastFotoCat from './lastFotoCat.png';
+import logoVertical from './logoVertical.png';
+import cartoes from './cartoes.png';
+import empresaB from './empresaB.png';
+import trueOpinion from './trueOpinion.png';
+import security from './security.png';
+import redesSociais from './redesSociais.png';
 
 export {img1, img2, img3, arrow1, arrow2, logo, icon, lupa,
         cat, cesta, notification, numdez, prize, paw, pawL, 
@@ -49,4 +56,6 @@ export {img1, img2, img3, arrow1, arrow2, logo, icon, lupa,
         noventaGraus, circuloAmarelo, tocaTunel, cestaBlack,
         classico, minimalismo, maximalismo, boho, ilustracao,
         um, dois, tres, quatro, cinco, circuloVermelho, gatoSobre,
-        play, gato1, gato2, gato3, gato4, gato5, heart, redHeart};
+        play, gato1, gato2, gato3, gato4, gato5, heart, redHeart, 
+        lastFotoCat, logoVertical, cartoes, empresaB, trueOpinion, 
+        security, redesSociais};

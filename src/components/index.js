@@ -8,5 +8,6 @@ import Categorias from './Categorias/Categorias'
 import Ilustracao from './Ilustracao/Ilustracao'
 import Sobre from './Sobre/Sobre'
 import Hashtag from './Hashtag/Hashtag'
+import Newsletter from './Newsletter/Newsletter'
 
-export { Header, Navbar, Carrossel, Beneficios, Colecoes, Produtos, Categorias, Ilustracao, Sobre, Hashtag }
+export { Header, Navbar, Carrossel, Beneficios, Colecoes, Produtos, Categorias, Ilustracao, Sobre, Hashtag, Newsletter }

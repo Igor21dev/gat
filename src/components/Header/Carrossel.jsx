@@ -34,7 +34,7 @@ const carrossel = () => {
       prevArrow: <PrevArrow />,
       nextArrow: <NextArrow />,
       appendDots: dots => (
-        <div>
+        <div className='z-100'>
           <ul className="dots flex gap-3 h-[80px] ml-[144px]">{dots}</ul>
         </div>
       ),

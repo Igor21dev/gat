@@ -29,10 +29,10 @@ const Colecoes = () => {
         <div className='tracos absolute'>
             <img className='transform w-[345px] z-2 translate-y-[245px] transform translate-x-[390px]' src={circulo} alt="circulo pontilhado para enfeite" />
         </div>
-        <div className='imgGatoCaixa absolute'>
-            <img className='w-[550px] ml-[780px] mt-[1150px] z-3' src={gatoCaixa} alt="Gato em uma caixa" />
-            <img className='w-[33px] ml-[1100px] transform translate-y-[-400px] transform translate-x-[-190px] ' src={mais} alt="" />
-            <img className='w-[13px] ml-[1100px] transform translate-y-[-425px] transform translate-x-[-180px] ' src={complementoMais} alt="" />
+        <div className='imgGatoCaixa absolute left-0'>
+            <img className='w-[550px] transform translate-y-[575px] transform translate-x-[875px] z-3' src={gatoCaixa} alt="Gato em uma caixa" />
+            <img className='w-[33px] ml-[1100px] transform translate-y-[175px] transform translate-x-[-95px] ' src={mais} alt="" />
+            <img className='w-[13px] ml-[1100px] transform translate-y-[151px] transform translate-x-[-85px] ' src={complementoMais} alt="" />
         </div>
         <div className='texto absolute'>
             <p className='text-left text-[24.5px] ml-[1100px] transform translate-y-[392px] transform translate-x-[-663px]'>
